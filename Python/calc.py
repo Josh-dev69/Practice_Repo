@@ -1,4 +1,4 @@
-from calculator import add, sub, mul, div
+from Python.calculator import add, sub, mul, div
 import sys
 
 num_args = len(sys.argv) - 1
