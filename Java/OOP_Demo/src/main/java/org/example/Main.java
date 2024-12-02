@@ -5,6 +5,8 @@ public class Main {
 
         Car car = new Car("Mercedez", "Benz", 2022);
         Person person1 = new Person("Ebube Titus", 20);
+        Manager manager1 = new Manager("Ebube Joshua", 1, 40000.0);
+        manager1.manageTeam();
 
         car.printDetails();
         person1.greet();
